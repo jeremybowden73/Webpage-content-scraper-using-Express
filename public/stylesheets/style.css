@@ -67,6 +67,11 @@ button:hover {
   background-color: #222;
 }
 
+button a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Tables */
 
 #tableData {

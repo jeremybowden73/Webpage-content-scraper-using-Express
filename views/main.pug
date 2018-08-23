@@ -7,12 +7,12 @@ html(lang="en")
   body
     h1 Web Scraper
     h3 This web scraper app was originally created in  #[img(src='/static/img/node.png' width='120')]  as a command-line utility, which can be #[a(href='https://github.com/jeremybowden73/Webpage-Content-Scraper-using-node.js') found on GitHub here].
-    h3 I've updated it as an Express app, deployed on Heroku. #[a(href='#') Here it is on GitHub].
+    h3 I've converted it to be an Express app, deployed on Heroku, to be what you are seeing now. #[a(href='https://github.com/jeremybowden73/Webpage-content-scraper-using-Express') Here it is on GitHub].
     p Before this page loaded, the scraper had been busy scraping data from an e-commerce site #[a(href='http://shirts4mike.com/') http://shirts4mike.com/].
-    p It scraped the following data for 8 shirts in the online store, and returned the here, ready to be loaded into this table.
+    p It scraped the following data for 8 shirts in the online store, and returned the data here, ready to be loaded into this table.
     br
     .buttonDiv
-      button(type='button') Back to jeremybowden.net
+      button(type='button' onclick='history.back()') Back to jeremybowden.net
     br
     table#tableData
       each shirt in data
