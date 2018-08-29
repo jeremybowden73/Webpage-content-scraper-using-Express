@@ -46,31 +46,22 @@ input {
 /* Buttons */
 
 .buttonDiv {
-  width: 100%;
   text-align: center;
+  margin: 10px;
 }
 
-button {
-  outline: none;
-  margin: auto;
+.button {
   background-color: #515151;
-  font-size: 1em;
-  padding: 20px;
+  padding: 18px;
   color: white;
-  text-align: center;
-  border: none;
   border-radius: 10px;
 }
 
-button:hover {
+.button:hover {
   cursor: pointer;
   background-color: #222;
 }
 
-button a {
-  text-decoration: none;
-  color: white;
-}
 
 /* Tables */
 

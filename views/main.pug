@@ -11,8 +11,8 @@ html(lang="en")
     p While the page was loading, the scraper was busy scraping data from an e-commerce site #[a(href='http://shirts4mike.com/') http://shirts4mike.com/].
     p It scraped the following data for 8 shirts in the online store, and returned the data here, ready to be loaded into this table.
     br
-    .buttonDiv
-      button(type='button' onclick="window.location.href='https://www.jeremybowden.net.com/'") Back to jeremybowden.net
+    div.buttonDiv
+      a.button(href='https://www.jeremybowden.net/') Back to jeremybowden.net
     br
     table#tableData
       each shirt in data
